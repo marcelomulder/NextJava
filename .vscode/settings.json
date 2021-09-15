@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Poo",
-        "ImersaoAula01/src",
-        "NextJava/src/ExerciciosSegSemana"
+        "NextJava/src/ExerciciosSegSemana",
+        "NextJava/src"
     ]
 }
