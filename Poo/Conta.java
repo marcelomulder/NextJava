@@ -3,23 +3,21 @@ public class Conta {
     String agencia;
     Double saldo;
 
-    public Conta(String num, String agen, Double sald){
+    public Conta(String num, String agen, Double sal) {
         numero = num;
         agencia = agen;
-        saldo = sald;
+        saldo = sal;
     }
 
-    public void debitarSaldo(Double saque){
+    public void debitarSaldo(Double saque) {
         if (saldo != null && saldo > 0 && saldo >= saque) {
             saldo -= saque;
         } else {
             System.out.println("Não há saldo suficiente!!!");
-        }      
-
+        }
     }
-    
-    public void creditarSaldo(Double saque){
-        saldo += saque;
-        
+
+    public void creditarSaldo(Double valor) {
+        saldo += valor;
     }
 }
