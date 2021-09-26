@@ -1,0 +1,30 @@
+Empregado
+
+	Características
+		- Nome
+		- CPF
+		- NIS
+		- Salário
+	
+	Ações
+		- toString()
+	
+
+Gerente (Herda tudo de empregado)
+
+	Características
+		- Tudo de empregado
+		- departamento que ele gerencia
+		
+	Ações
+		- Retornar mesmo valor do toString ed empregado + o departamento (fazer @Override)
+		
+Vendedor (Herda tudo de Empregado)
+
+	Características
+		- Tudo de empregado
+		- Percentual de comissão
+		
+	Ações
+		- Retornar mesmo valor do toString de empregado + o departamento + salário + salário com comissão +
+		percentual de comissão (fazer @Override)
